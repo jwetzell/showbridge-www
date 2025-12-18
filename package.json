@@ -1,7 +1,7 @@
 {
   "name": "@showbridge/site",
   "version": "1.0.0",
-  "description": "www.showbrigde.io",
+  "description": "www.showbridge.io",
   "main": "index.js",
   "scripts": {
     "tailwind": "tailwindcss -i tailwind.css -o src/assets/css/tailwind.css",
