@@ -20,4 +20,5 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
-      - run: npm run build
+      - name: build tailwind
+        run: npm run tailwind
