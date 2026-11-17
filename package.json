@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "www.showbridge.io",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "tailwind": "tailwindcss -i tailwind.css -o src/assets/css/tailwind.css",
-    "dev": "http-server src/"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "author": {
     "name": "Joel Wetzell",
@@ -22,8 +24,9 @@
   },
   "homepage": "https://github.com/jwetzell/showbridge#readme",
   "devDependencies": {
-    "http-server": "14.1.1",
-    "tailwindcss": "4.3.5",
-    "@tailwindcss/cli": "4.3.5"
+    "@tailwindcss/vite": "^4.3.5",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
   }
 }
